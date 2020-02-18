@@ -60,4 +60,10 @@ public class RandomPerson implements Person {
 				" " + lasts[(int) (Math.random()*lasts.length)];
 	}
 
+	@Override
+	public int compareTo(Person other) {
+		return (getHappiness() < other.getHappiness()) ? -1 : 
+			(getHappiness() > other.getHappiness() ? 1 : 0);
+	}
+
 }
