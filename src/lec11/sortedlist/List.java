@@ -1,4 +1,4 @@
-package lec12.sortedlist;
+package lec11.sortedlist;
 
 public interface List<T> {
 
@@ -23,7 +23,7 @@ public interface List<T> {
 	}
 	
 	// find
-	// Returns index of first occurence of specified element
+	// Returns index of first occurrence of specified element
 	// or -1 if not found.
 	default int find(T element) {
 		for (int i=0; i<size(); i++) {

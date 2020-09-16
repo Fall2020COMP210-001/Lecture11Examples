@@ -1,4 +1,4 @@
-package lec12.ex1;
+package lec11.ex1;
 
 public interface Person {
 
@@ -6,5 +6,5 @@ public interface Person {
 	double getFame();
 	double getLove();
 	double getMoney();
-	double getHappiness();	
+	double getHappiness();
 }

@@ -1,4 +1,4 @@
-package lec12.sortedlist;
+package lec11.sortedlist;
 
 public class ArrayList<T> implements List<T> {
 

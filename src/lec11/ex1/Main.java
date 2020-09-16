@@ -1,4 +1,4 @@
-package lec12.ex1;
+package lec11.ex1;
 
 import java.util.ArrayList;
 import java.util.List;
